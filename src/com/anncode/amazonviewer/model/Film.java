@@ -4,22 +4,20 @@ public abstract class Film {
 	
 	private String title;
 	private String genre;
-	private String creador;
+	private String creator;
 	private int duration;
 	private short year;
 	private boolean viewed;
 	
 	
 	
-	public Film(String title, String genre, String creador, int duration) {
+	public Film(String title, String genre, String creator, int duration) {
 		super();
 		this.title = title;
 		this.genre = genre;
-		this.creador = creador;
+		this.creator = creator;
 		this.duration = duration;
 	}
-	
-	
 	
 	public String getTitle() {
 		return title;
@@ -33,11 +31,11 @@ public abstract class Film {
 	public void setGenre(String genre) {
 		this.genre = genre;
 	}
-	public String getCreador() {
-		return creador;
+	public String getCreator() {
+		return creator;
 	}
-	public void setCreador(String creador) {
-		this.creador = creador;
+	public void setCreator(String creator) {
+		this.creator = creator;
 	}
 	public int getDuration() {
 		return duration;
@@ -53,23 +51,25 @@ public abstract class Film {
 	}
 	public String isViewed() {
 		String visto = "";
-		if (viewed == true) {
-			visto = "Sí";			
+		if(viewed == true) {
+			visto = "Sí";
 		}else {
 			visto = "No";
 		}
+		
 		return visto;
 	}
 	
 	public boolean getIsViewed() {
-		return this.viewed;
+		return viewed;
 	}
-	
 	public void setViewed(boolean viewed) {
 		this.viewed = viewed;
 	}
 	
+	
 	public abstract void view();
+
 	
 	
 
