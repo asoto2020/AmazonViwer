@@ -36,7 +36,7 @@ public class Main {
 			System.out.println("5. Report");
 			System.out.println("6. Report Today");
 			System.out.println("0. Exit");
-			
+			/**Comentarios documentados*/
 			//Leer la respuesta del usuario
 			int response = AmazonUtil.validateUserResponseMenu(0, 6);
 
