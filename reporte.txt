@@ -1,13 +1,21 @@
 
  :: MOVIE ::
- Title: Movie 2
- Genero: Genero 2
- Year: 2019
- Creator: Creador 2
- Duration: 122
+ Title: Coco
+ Genero: Animación
+ Year: 2017
+ Creator: Pixart
+ Duration: 120
+
  :: MOVIE ::
- Title: Movie 3
- Genero: Genero 3
- Year: 2020
- Creator: Creador 3
+ Title: Titanic
+ Genero: Drama
+ Year: 1997
+ Creator: James Cameron
+ Duration: 195
+
+ :: MOVIE ::
+ Title: Amélie
+ Genero: Romance
+ Year: 2001
+ Creator: Jean-Pierre Jeunet
  Duration: 123
