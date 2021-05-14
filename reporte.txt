@@ -1,21 +1,16 @@
 
- :: MOVIE ::
- Title: Coco
- Genero: Animación
- Year: 2017
- Creator: Pixart
- Duration: 120
+ :: SERIE ::
+ Title: Serie 1
+ :: CHAPTER ::
+ Title: Capituo 1
+ Year: 2018
+ Creator: creator1
+ Duration: 45
 
- :: MOVIE ::
- Title: Titanic
- Genero: Drama
- Year: 1997
- Creator: James Cameron
- Duration: 195
-
- :: MOVIE ::
- Title: Amélie
- Genero: Romance
- Year: 2001
- Creator: Jean-Pierre Jeunet
- Duration: 123
+ :: SERIE ::
+ Title: Serie 5
+ :: CHAPTER ::
+ Title: Capituo 5
+ Year: 2022
+ Creator: creator5
+ Duration: 45
